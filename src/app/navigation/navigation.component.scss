@@ -1,0 +1,13 @@
+
+  button {
+    color: #3b17f7;
+    box-shadow: 1px 1px 4px 0px rgb(211, 206, 206);
+  }
+
+  @media  (max-width: 992px){
+  
+      .container-fluid {
+        justify-content: flex-end;
+        
+      }
+    }

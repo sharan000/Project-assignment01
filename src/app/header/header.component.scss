@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(	https://www.makerobos.com/assets/images/bg_dots2.svg);
+  padding: 5%;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: center;
+
+  .appoint {
+    color: #3b17f7;
+  }
+
+  .input-card {
+    background: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 4px rgb(211, 206, 206);
+    width: 40%;
+    height: 60px;
+    padding: 0% 1%;
+    display: flex;
+    align-items: center;
+
+    .input {
+        width: 60%;
+        border: none;
+        outline: none;
+    }
+    button {
+      padding: 10px 10px;
+      color: #714114;
+      background-color: #f8e71c;
+      box-shadow: 1px 1px 2px 0px rgb(211, 206, 206);
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+      width: 50%;
+    }
+  }
+
+  .info {
+    font-size: 12px;
+    letter-spacing: normal;
+    padding-top: 1%;
+  }
+}
+
+@media  (max-width: 992px){
+  .header {
+    .input-card {
+      width: 80%;
+    }
+  }
+}
